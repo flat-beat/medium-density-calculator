@@ -13,7 +13,7 @@ import { useTheme } from '@mui/material/styles';
 import './App.css';
 
 const temperatureOptions = Array.from({ length: 27 }, (_, i) => `${i * 10 - 10} - ${i * 10} ℃`);
-const mediumOptions = ['Wasser', 'Kühlwasser mit Frostschutz (20% Ethylenglykol, pH >=7,5)', 'Wärmeträgeröl (Beispiel: BP Transcal N)', 'Other'];
+const mediumOptions = ['Wasser', 'Cooling water with antifreeze (20% Ethylene glycol, pH >=7,5)', 'Thermal oil (Example: BP Transcal N)', 'Other'];
   
   const densityValues = {
     'Wasser': {
@@ -36,7 +36,7 @@ const mediumOptions = ['Wasser', 'Kühlwasser mit Frostschutz (20% Ethylenglykol
     '230 ℃': 826,
     '240 ℃': 814,
   },
-  'Kühlwasser mit Frostschutz (20% Ethylenglykol, pH >=7,5)': {
+  'Cooling water with antifreeze (20% Ethylene glycol, pH >=7,5)': {
     '-10 ℃': 1034,
     '0 ℃': 1032,
     '20 ℃': 1026,
@@ -46,7 +46,7 @@ const mediumOptions = ['Wasser', 'Kühlwasser mit Frostschutz (20% Ethylenglykol
     '100 ℃': 979,
     '120 ℃': 962,
   },
-  'Wärmeträgeröl (Beispiel: BP Transcal N)': {
+  'Thermal oil (Example: BP Transcal N)': {
     '0 ℃': 889,
     '20 ℃': 876,
     '40 ℃': 863,
